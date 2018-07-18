@@ -1,0 +1,273 @@
+ /*header section*/
+ header{
+    background-color:#000000;
+    width:auto;
+    height:120px;
+    border-top-left-radius:5px;
+    position: relative;
+    top:60px;
+  }
+  #header-img{
+    border-radius:50%;
+    width:130px;
+    height:130px;
+    float:left;
+    margin-top:0px;
+    position:absolute;
+    left:50px;
+    top:0px;
+    padding:10px;
+    
+  }
+  
+  #headerdetail{
+    font-family: 'Shrikhand', cursive;
+    text-align:center;
+    font-size:80px;
+    position:none;
+    top:0px;
+    left:200px;
+    color:#ffffff;
+  }
+
+  /*navigation bar*/
+ ol{
+    position:fixed;
+    background-color:#12c453;
+    list-style-type:none;
+    text-decoration:none;
+    overflow:hidden;
+    color:white;
+    width:100%;
+    top:0px;
+  }
+  .nav-link{
+    float:left;
+    color:white;
+  }
+    
+  a{
+    padding: 4px 30px;
+    margin: 0px;
+  display:block;
+    text-align:center;
+    color:white;
+    font-family: 'Wendy One', sans-serif;
+    font-size:25px;
+  }
+  ol:hover {
+    background: #5b0f99;
+
+  }
+  #certicate-a{
+    text-align:center;
+    font-size:25px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius:50%;
+    list-style-type:none;
+    
+    color:white;
+  }
+ li a:hover{
+    background: #34777c;
+    text-decoration-style: none;
+    color:white;
+  }
+  /*
+  a:nth-child(1){
+    background: #0c7b9c;
+  }
+  a:nth-child(1){
+    background: #ca0717;
+  }
+  a:nth-child(1){
+    background: #0c929c;
+  }*/
+  li:nth-child(1){
+    background:#eb0436;
+    
+
+  }
+  li:nth-child(2){
+    background:#6d063e;
+   
+  }
+  li:nth-child(3){
+    background:#44b480;
+    
+  }
+li:nth-child(4){
+  background: #723868;
+  
+}
+li:nth-child(5){
+  background: #0c7b9c;
+  
+}
+li:nth-child(6){
+  background: #a08b9c;
+  
+}
+li:nth-child(7){
+  background: #afdd07;
+  
+}
+li:nth-child(8){
+  background: #ee0773;
+  
+}
+li:nth-child(9){
+  background: #723868;
+ 
+}
+li:nth-child(10){
+  background: #094466;
+  
+}
+li:nth-child(11){
+  background: #a7d110;
+  
+}
+  @media screen and (min-width: 1480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+h2{
+  font-family: impact;
+  font-size:100px;
+  text-align: center;
+}
+
+#perfect{
+  font-family: 'Playfair Display', serif;
+  font-size:45px;
+  text-align: center;
+}
+#hobbies {
+  font-size:40px;
+  font-family: 'Indie Flower', cursive;
+  margin:10px;
+  
+}
+#certificate {
+  font-size:40px;
+  font-family: 'Indie Flower', cursive;
+  margin:10px;
+  
+}
+/*form style*/
+#mainformcontainer{
+  text-align: center;
+  background:url("https://cn.pling.com/img/d/4/2/8/79779577f314302bbd285e2f858754ea0f04.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding-top:150px;
+  padding-bottom: 10%;
+}
+#mainform{
+  background:linear-gradient(#17ca444b,#6810a7);
+  display:flex;
+  width:300px;
+  height:570px;
+  position:relative;
+  opacity: 0.4;
+  left:40%;
+  padding-top: 15%;
+  border-radius: 15px;
+}
+#mainform:hover{
+  opacity: 0.9;
+}
+#formimage{
+  border-radius:5px;
+  width:285px;
+  height:170px;
+  float:center;
+  margin-top:0px;
+  position:absolute;
+  left:8px;
+  
+  top:10px;
+  padding:0px;
+  opacity:1;
+}
+input{
+  width:280px;
+}
+label{
+  font-size:25px;
+  font-family: 'Wendy One', sans-serif;
+}
+[type='submit']{
+  border-radius:20px;
+  background:#1838b8;
+  border-bottom-color: #993b0f;
+border-top-color:#b9b028;
+border-left-color:#0de931;
+border-right-color:#000000;
+box-shadow: grey 10px; 
+}
+[type='submit']:hover{
+background: #0de931;
+
+
+}
+::-webkit-input-placeholder{
+  font-family:impact;
+  text-align: center;
+}
+input:hover{
+  background:rgb(229, 147, 147);
+  
+}
+#footercontainer{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+  height: 400px;
+  background:#000000;
+}
+#footer1{
+  width:100%;
+  height:80%;
+  float:center;
+  
+}
+#footer2{
+  width:100%;
+  height:20%;
+  text-align:right;
+  font-size:40px;
+  top:10%;
+}
+i{
+  transform:scale(2);
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:#ffffff;
+  float:center;
+  margin:30px;
+
+}
+i:hover{
+  width:30px;
+  background: none;
+}
+#ifooter{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  position: relative;
+  left:30%;
+float:center;
+margin:0;
+display:flex;
+flex-direction:row;
+}
+#footerdetail{
+  text-align: center;
+  font-size: 40px;
+  margin:60px;
+}
